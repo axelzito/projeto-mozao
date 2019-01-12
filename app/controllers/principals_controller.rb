@@ -1,9 +1,6 @@
 class PrincipalsController < ApplicationController
   before_action :set_principal, only: [:show, :edit, :update, :destroy]
 
-  def video
-  end
-  
   # GET /principals
   # GET /principals.json
   def index
